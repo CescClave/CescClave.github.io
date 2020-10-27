@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#works">works</a></li>
+        <li><a href="#experience">experience</a> </li>
+        <li class="empty"> </li>
+        <li><a href="https://issuu.com/cclavedomenech/docs/ucl_portfolio_-_ccd
+          "target="black">portfolio</a></li>
+        <li><a href="https://drive.google.com/file/d/1w8Usz5EhJYjynDCB23jf0IyOzCqvSg9Z/view?usp=sharing" download
+          target="black">CV</a></li>
+        <li><a href="https://www.linkedin.com/in/cesc-clav%C3%A9-i-domenech-20a83b112/
+          "target="_blank">linkedin</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm">
+            <h1>hi, i'm<br/>cesc clave.</h1>
+            <ul>
+              <li >_Professional experience with globaly recognizable brands </li>
+              <li>_Currently studying RIBA Part II Master's of Architecture</li>
+              <li>_Bachelor of Science Architecture Degree with Honours</li>
+              <li>_Graduated with International Baccalaureate Diploma</li>
+              <li>_Over 300+ hours of Volunteering experience</li>
+              <li>_Multilingual (ESP,  ENG,  CAT,  FRN)</li>
+            </ul>
+            <a href="https://www.linkedin.com/in/cesc-clav%C3%A9-i-domenech-20a83b112/
+            "target="_blank" class="button">add me on linkedin</a>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/ccdpic.jpg" class="intro-img" alt="Cesc Clave" />
+              <figcaption id="experience">Cesc Clave Domenech
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <ul class="skills-list">
+        <li>01_architectural development</li>
+        <li>02_programing experience</li>
+        <li>03_graphic design</li>
+        <li>04_design reaserch</li>
+        <li>05_creative work</li>
+      </ul>
+    </section>
+
+    <!-- projects -->
+
+    <!-- project 1 -->
+    <section class="project blue" id="works">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/myimg/1010.png" alt="Cosmetics">
+              <figcaption class="right-alignment">
+                Thinonck-Essyl High School Model @ 1:200
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- right column -->
+          <div class="col-sm">
+            <h2>01_work<br/>
+              experience</h2>
+            <p>Spent the past year working as an architectural assistant
+               at GroupG4, an international company collaborating with
+               many instantly recognizable, fortune 500 brands.
+               Developed high-quality presentation habits using AutoCAD,
+                Revit, 3Ds Max, and excel, to present to luxury retail
+                brands for boutiques in Europe, UK, Qatar, and Dubai.
+                <br>Before that, I volunteered at DAW Office, an architecture
+                 firm in Barcelona for 4 summer months in between my
+                 studies.<span id="dots">..</span><span id="more">
+                Developed key shop drawings for a renovation of Gaudi’s
+                first-ever project, a now highly protected Casa Vicens.
+                Designed, constructed, and photographed a 2m x 3.5m 1:200
+                detailed scale model of a charity project to create the
+                Thinonck-Essyl High School in a remote village in Senegal.
+                Model and photographs were displayed for company
+                fundraisers and presented to key stakeholders.</span>
+            </p>
+            <button class="button" onclick="myFunction()" id="myBtn">read more</button>
+            <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "read more";
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "read less";
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project 2 -->
+    <section class="project">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right-alignment">
+            <h2>02_architecture <br/>
+            portfolio</h2>
+            <p>I completed my three-year undergraduate course focused on
+              sustainable design and theories of architecture at the
+              University of The West of England and graduated with a
+              Bachelor’s Degree in Science with Honors.<br>
+
+              <br>During 2020/22 I am undertaking a Master’s in
+              Architecture at Kingston School of Art University. Once
+              complete I will be RIBA Part II certified and after a year
+              of working I look forward to pursuing RIBA part III. Leading to
+              work as a licensed architect that aims to specialize in private
+              residential sustainable design.
+            </p>
+          </div>
+
+          <!-- right column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/myimg/my portfolio.png" alt="Dashboard App">
+              <figcaption>
+                My Architecture Portfolio
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project 3 -->
+    <section class="project blue">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/myimg/codin.jpg" alt="iPad App">
+              <figcaption class="right-alignment">
+                Photo by Halacious on Unsplash
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- right column -->
+          <div class="col-sm">
+            <h2>03_professional<br/>
+            development</h2>
+            <p>To develop some of my own skills, I built this
+               website using my fundamental knowledge of HTML coding
+               and CSS. I have also had a large interest in growing my
+               Python programming skills. Python can be useful to
+               architects to automate and facilitate many procedures
+               using Revit’s or AutoCAD’s built-in API’s. Learning to
+               code can also be helpful in developing parametric design,
+               perhaps the future of architecture. Apart from coding,
+               I have a large interest in reading; psychology,
+               architecture, and their relationship compose the majority
+                of my library.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <h2>any questions?<br/>
+      find me here cclavedomenech@gmail.com
+      </h2>
+      <p>
+        designed & developed by cesc clave 2020
+      </p>
+    </footer>
+  </body>
+</html>
