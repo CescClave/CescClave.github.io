@@ -649,3 +649,35 @@ nav {
 #radio36:checked ~ .first{
   margin-left: -60%;
 }
+
+#radio37:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio38:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio39:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio40:checked ~ .first{
+  margin-left: -60%;
+}
+
+#radio41:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio42:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio43:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio44:checked ~ .first{
+  margin-left: -60%;
+}
