@@ -681,3 +681,19 @@ nav {
 #radio44:checked ~ .first{
   margin-left: -60%;
 }
+
+#radio45:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio46:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio47:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio48:checked ~ .first{
+  margin-left: -60%;
+}
